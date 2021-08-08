@@ -1,3 +1,4 @@
+// P.S. start and finish aren't important part. These variables contain information when algorithm started and finished
 function bubbleSort(arr){
   let start = Date.now();
   for(let i = 0; i < arr.length; ++i){
@@ -10,6 +11,6 @@ function bubbleSort(arr){
     }
   }
   let finish = Date.now();
-  timeResult = finish - start + 'ms'; // start and finish aren't important part. These variables contain information when algorithm started and finished
+  timeResult = finish - start + 'ms'; 
   return arr;
 }
