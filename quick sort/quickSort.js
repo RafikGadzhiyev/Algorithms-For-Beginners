@@ -1,3 +1,4 @@
+// P.S. start and finish aren't important part. These variables contain information when algorithm started and finished
 function quickSort(arr, start, finish){
             let startTime = Date.now();
             if(start < finish){                
